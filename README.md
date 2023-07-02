@@ -1,7 +1,7 @@
 # NithubProject.py
- Elemental Clash Text-Base Game
+ 
 
- # ELEMENTAL CLASH GAME
+ # ELEMENTAL CLASH GAME TEXT-BASE GAME
 
 ## INTRODUCTION
 
