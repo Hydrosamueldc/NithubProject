@@ -1,7 +1,7 @@
 # NithubProject.py
  
 
- # ELEMENTAL CLASH TEXT-BASE GAME
+ # ELEMENTAL CLASH TEXT-BASED GAME
 
 ## INTRODUCTION
 
@@ -21,7 +21,7 @@ If both players choose the same element, it results in a tie for that round.
 If fire and air or water and air are matched up, it results in a tie, and no damage is dealt to either player.
 After each round, the player who wins the clash deals damage to the opponent equal to the difference in life points.
 The game continues until one player's life points reach zero.
-At the end of the game, the player with remaining life points is declared the winner.
+At the end of the game, the player with the remaining life points is declared the winner.
 
 Game Implementation
 The game is implemented in Python and is text-based, allowing players to enter their choices through the console. The code is structured into a single function play_game() that encapsulates the entire gameplay.
@@ -30,13 +30,13 @@ The game is implemented in Python and is text-based, allowing players to enter t
 
 The play_game() function serves as the entry point of the game and contains the main game loop. It begins by prompting the user to enter their name and then displays the game's rules.
 
-The function uses a while loop to keep the game running until one player's life points reach zero or the user decides to quit. Inside the loop, the computer's choice of element is generated randomly using the random.choice() function.
+The function uses a while loop to keep the game running until one player's life points reach zero or the user decides to quit. Inside the loop, the computer's choice of the element is generated randomly using the random.choice() function.
 
-The user is prompted to enter their choice of element, and the game then determines the winner based on the element matchups. The life points of the players are adjusted accordingly after each round, and the scores are updated.
+The user is prompted to enter their choice of the element, and the game then determines the winner based on the element matchups. The life points of the players are adjusted accordingly after each round, and the scores are updated.
 
 The game continues until one player wins or the user decides to quit by entering 'q' or 'quit'.
 
-### ELEMENTS DICTONARY
+### ELEMENTS DICTIONARY
 
 The game uses a dictionary named elements to map the full element names to their abbreviated representations (e.g., "fire" to "F"). This dictionary is used to display the user's and computer's choices in a more readable format.
 
